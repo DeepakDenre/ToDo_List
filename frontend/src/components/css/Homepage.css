@@ -1,0 +1,78 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page-wrapper {
+    display: flex;
+    width: 100vw;
+    background-color: #e5e5f7;
+    opacity: 0.6;
+    background-image: linear-gradient(30deg,
+            #444cf7 12%,
+            transparent 12.5%,
+            transparent 87%,
+            #444cf7 87.5%,
+            #444cf7),
+        linear-gradient(150deg,
+            #444cf7 12%,
+            transparent 12.5%,
+            transparent 87%,
+            #444cf7 87.5%,
+            #444cf7),
+        linear-gradient(30deg,
+            #444cf7 12%,
+            transparent 12.5%,
+            transparent 87%,
+            #444cf7 87.5%,
+            #444cf7),
+        linear-gradient(150deg,
+            #444cf7 12%,
+            transparent 12.5%,
+            transparent 87%,
+            #444cf7 87.5%,
+            #444cf7),
+        linear-gradient(60deg,
+            #444cf777 25%,
+            transparent 25.5%,
+            transparent 75%,
+            #444cf777 75%,
+            #444cf777),
+        linear-gradient(60deg,
+            #444cf777 25%,
+            transparent 25.5%,
+            transparent 75%,
+            #444cf777 75%,
+            #444cf777);
+    background-size: 80px 140px;
+    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+}
+
+.page {
+    display: block;
+    border-radius: 12px;
+    padding: 20px;
+    margin: auto;
+    background-color: wheat;
+}
+
+.actions{
+    display: flex;
+    background-color: transparent;
+}
+
+.login,.register{
+    margin: auto;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 6px;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.title {
+    color: black;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 5rem;
+}
