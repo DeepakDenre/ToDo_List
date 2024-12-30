@@ -1,4 +1,5 @@
 import "../css/Homepage.css";
+import { Link } from "react-router-dom";
 
 export default function Homepage() {
   return (
@@ -8,8 +9,8 @@ export default function Homepage() {
           <div className="page-content">
             <div className="title">To Do List</div>
             <div className="actions">
-              <a className="login" href="./Login.jsx">Login</a>
-              <a className="register" href="/register">Register</a>
+              <Link to="/login" className="login">Login</Link>
+              <Link to="register" className="register">Register</Link>
             </div>
           </div>
         </div>

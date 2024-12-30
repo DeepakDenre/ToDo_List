@@ -1,0 +1,27 @@
+.login-wrapper{
+    background-color: transparent;
+    width: 100vw;
+    display: flex;
+}
+
+.login-content{
+    background-color: rgb(206, 205, 205);
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.login-form{
+    display: block;
+}
+
+.form-content{
+    padding: 20px;
+}
+
+.username,.password,.submit{
+    display: grid;
+    grid-template-columns: auto auto;
+}
